@@ -53,7 +53,7 @@ footer#bar {
     text-align: center;
     padding: 10px;
   }
-/*FIX*/
+/*Player Name*/
 #player-name{
     width: 100px;
     transition: width 0.3s ease-in-out;

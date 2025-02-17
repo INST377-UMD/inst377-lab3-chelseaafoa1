@@ -1,0 +1,99 @@
+body {
+    background-color: #92dce5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  #bar {
+    text-align: center;
+    color: white;
+    background-color: #b55dbf;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    clear: both;
+  }
+footer#bar {
+    margin-top: 15px;
+
+}
+  
+  #main-nav {
+    background-color: crimson;
+    text-align: center;
+
+
+  }
+  
+  #main-nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+  }
+  
+  #main-nav li:hover {
+    background-color: #a5b043;
+    color: white;
+  }
+  
+  #main-nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: crimson;
+    float: left;
+    padding: 0;
+  }
+  
+  #main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+/*Player Name*/
+#name-player{
+    width: 100px;
+    transition: width 0.3s ease-in-out;
+
+} 
+#name-player:focus{
+    width: 200px;
+}
+
+  .content-area {
+    width: 65%;
+    float: left;
+    margin: 0;
+  }
+  
+  .content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  
+  #contact {
+    text-align: center;
+    background-color: rgb(75, 108, 169);
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    border: 2px solid black;
+  }
+
+#contact:hover{
+    background-color: #a5b043  ;
+}
+  
+  .main-container {
+      border: 2px solid black;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 5px;
+  }

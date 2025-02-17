@@ -54,12 +54,12 @@ footer#bar {
     padding: 10px;
   }
 /*Player Name*/
-#player-name{
+#name-player{
     width: 100px;
     transition: width 0.3s ease-in-out;
 
 } 
-#player-name:focus{
+#name-player:focus{
     width: 200px;
 }
 
